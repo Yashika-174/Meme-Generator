@@ -32,8 +32,8 @@ export default function Edit(){
             return (<Text/>)
         })}
     </div>
-    <Button style={{margin:'3.5px'}} onClick={addText}>Add Text</Button>
-    <Button style={{margin:'3.5px'}} variant="success" onClick={handleSave}>Save</Button>
+    <Button style={{margin:'4.5px'}} onClick={addText}>Add Text</Button>
+    <Button style={{margin:'4.5px'}} variant="success" onClick={handleSave}>Save</Button>
 
     </div>)
 }
