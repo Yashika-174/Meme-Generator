@@ -24,9 +24,9 @@ export default function Edit(){
     }
 
     return (
-    <div style={{textAlign:'center'}} className='meme mt-5 mb-5' ref={memeRef}>
-        <div >
+    <div style={{textAlign:'center'}} className='meme mt-5 mb-5' >
         <h2>Edit Page</h2>
+        <div ref={memeRef}>
         <img src={params.get("url")} height='500px' width='500px'/><br/>
         {Array(count).fill(0).map((ele)=>{
             return (<Text/>)
