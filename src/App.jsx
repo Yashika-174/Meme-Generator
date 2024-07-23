@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className='container' style={{display:'flex',justifyContent:'center',flexWrap:'wrap',alignItems:'center'}}>
+      <h1>Meme Generator</h1>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/edit' element={<Edit/>}/>
